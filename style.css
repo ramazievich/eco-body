@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'rubik-black';
+	src: url('../eb/fonts/rubik/rubik-black/rubik-black.eot');
+	src: url('../eb/fonts/rubik/rubik-black/rubik-black.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-black/rubik-black.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-black/rubik-black.woff') format('woff'), url('../eb/fonts/rubik/rubik-black/rubik-black.ttf') format('ttf');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-blackitalic';
+	src: url('../eb/fonts/rubik/rubik-blackItalic/rubik-blackitalic.eot');
+	src: url('../eb/fonts/rubik/rubik-blackItalic/rubik-blackitalic.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-blackItalic/rubik-blackitalic.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-blackItalic/rubik-blackitalic.woff') format('woff'), url('../eb/fonts/rubik/rubik-blackItalic/rubik-blackitalic.ttf') format('ttf');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-bolditalic';
+	src: url('../eb/fonts/rubik/rubik-boldItalic/rubik-bolditalic.eot');
+	src: url('../eb/fonts/rubik/rubik-boldItalic/rubik-bolditalic.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-boldItalic/rubik-bolditalic.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-boldItalic/rubik-bolditalic.woff') format('woff'), url('../eb/fonts/rubik/rubik-boldItalic/rubik-bolditalic.ttf') format('ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-bold';
+	src: url('../eb/fonts/rubik/rubik-bold/rubik-bold.eot');
+	src: url('../eb/fonts/rubik/rubik-bold/rubik-bold.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-bold/rubik-bold.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-bold/rubik-bold.woff') format('woff'), url('../eb/fonts/rubik/rubik-bold/rubik-bold.ttf') format('ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-regular';
+	src: url('../eb/fonts/rubik/rubik-regular/rubik-regular.eot');
+	src: url('../eb/fonts/rubik/rubik-regular/rubik-regular.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-regular/rubik-regular.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-regular/rubik-regular.woff') format('woff'), url('../eb/fonts/rubik/rubik-regular/rubik-regular.ttf') format('ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-italic';
+	src: url('../rubik/rubik-italic/rubik-italic.eot');
+	src: url('../rubik/rubik-italic/rubik-italic.eot?#iefix') format('embedded-opentype'), url('../rubik/rubik-italic/rubik-italic.woff2') format('woff2'), url('../rubik/rubik-italic/rubik-italic.woff') format('woff'), url('../rubik/rubik-italic/rubik-italic.ttf') format('ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-light';
+	src: url('../eb/fonts/rubik/rubik-light/rubik-light.eot');
+	src: url('../eb/fonts/rubik/rubik-light/rubik-light.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-light/rubik-light.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-light/rubik-light.woff') format('woff'), url('../eb/fonts/rubik/rubik-light/rubik-light.ttf') format('ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-lightitalic';
+	src: url('../eb/fonts/rubik/rubik-lightItalic/rubik-lightitalic.eot');
+	src: url('../eb/fonts/rubik/rubik-lightItalic/rubik-lightitalic.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-lightItalic/rubik-lightitalic.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-lightItalic/rubik-lightitalic.woff') format('woff'), url('../eb/fonts/rubik/rubik-lightItalic/rubik-lightitalic.ttf') format('ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-medium';
+	src: url('../eb/fonts/rubik/rubik-medium/rubik-medium.eot');
+	src: url('../eb/fonts/rubik/rubik-medium/rubik-medium.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-medium/rubik-medium.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-medium/rubik-medium.woff') format('woff'), url('../eb/fonts/rubik/rubik-medium/rubik-medium.ttf') format('ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'rubik-mediumitalic';
+	src: url('../eb/fonts/rubik/rubik-mediumItalic/rubik-mediumitalic.eot');
+	src: url('../eb/fonts/rubik/rubik-mediumItalic/rubik-mediumitalic.eot?#iefix') format('embedded-opentype'), url('../eb/fonts/rubik/rubik-mediumItalic/rubik-mediumitalic.woff2') format('woff2'), url('../eb/fonts/rubik/rubik-mediumItalic/rubik-mediumitalic.woff') format('woff'), url('../eb/fonts/rubik/rubik-mediumItalic/rubik-mediumitalic.ttf') format('ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+body {
+	font-family: 'rubik-regular', 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    background: #F0F4F3;
+}
