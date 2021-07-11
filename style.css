@@ -6,6 +6,7 @@
 	font-style: normal;
 }
 
+
 @font-face {
 	font-family: 'rubik-blackitalic';
 	src: url('../eb/fonts/rubik/rubik-blackItalic/rubik-blackitalic.eot');
@@ -88,3 +89,16 @@ body {
 	box-sizing: border-box;
     background: #F0F4F3;
 }
+
+.wrapper {}
+
+
+.header {}
+.header__body {}
+.header__logo {}
+.header__burger {}
+.header__menu {}
+.header__list {}
+.header__link {}
+.content {}
+.content_txt {}
