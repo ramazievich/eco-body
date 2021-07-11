@@ -92,9 +92,6 @@ html, body {
 	height: 100%;
 }
 
-.wrapper {
-}
-
 
 .container {
 	max-width: 1180px;
@@ -142,7 +139,6 @@ html, body {
 .header__burger {
 	display: none;
 }
-.header__menu {}
 
 .header__list {
 	display: flex;
