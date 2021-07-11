@@ -171,6 +171,11 @@ color: #00052E;
 }
 
 @media (max-width: 768px) {
+	body.lock {
+		overflow: hidden;
+
+	}
+
 	.header__burger {
 		display: block;
 		position: relative;
@@ -237,6 +242,7 @@ color: #00052E;
 		left: 0;
 		width: 100%;
 		height: 100%;
+		overflow: auto;
 		background-color: #97E0B0;
 		padding: 70px 10px 20px 10px;
 		transition: all 0.3s ease 0s;
@@ -253,6 +259,10 @@ color: #00052E;
 	.header__list li {
 		margin:  0 0 20px 0;
 	}
+
+	.header__link {
+		font-size: 24px;
+		}
 
 	.content {
 		padding: 70px 0 0 0;
