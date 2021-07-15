@@ -37,17 +37,13 @@ function readMore() {
 	var more = document.getElementById("more__about__project");
 	var btn = document.getElementById("btn__about__project");
 
-	if(dots.style.display === "none") {
-		dots.style.display="inline";
-		btn.innerHTML="&#709;";/*показать*/
-		more.style.display="none";
+	if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btn.innerHTML = "˅"; /*показать*/
+		more.style.display = "none";
 	} else {
-		dots.style.display="none";
-		btn.innerHTML="&#708;";/*скрыть*/
-		more.style.display="inline";
+		dots.style.display = "none";
+		btn.innerHTML = "˄"; /*скрыть*/
+		more.style.display = "inline";
 	}
 }
-
-
-
-
