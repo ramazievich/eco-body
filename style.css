@@ -478,12 +478,17 @@ a.header__link:focus:after {
 }
 
 @media (min-width: 1100px) {
+	.header__list {
+		gap: 50px;
+	}
+
 	.go_course__header__mob {
 		padding: 0 3%;
 	}
 }
 
 @media (min-width: 1200px) {
+
 	.go_course__header__mob {
 		padding: 0 10% 0 7%;
 	}
