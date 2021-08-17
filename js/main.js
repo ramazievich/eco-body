@@ -1,3 +1,6 @@
+/**
+ * Функция для бургер меню
+*/
 $(document).ready(function () {
 	$('.header__burger').click(function (event) {
 		$('.header__burger,.header__menu').toggleClass('active');
@@ -32,6 +35,10 @@ $(document).ready(function () {
 */
 
 
+/**
+ *
+ *
+ */
 function readMore() {
 	var dots = document.getElementById("dots__about__project");
 	var more = document.getElementById("more__about__project");
