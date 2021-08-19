@@ -61,7 +61,7 @@
             </div>
          </header>
          <div class="content">
-            <div class="container_go_course">
+            <div class=".container_go_course">
                <div class="go_course__header">
                   <h3>Ключ здорового тела:</h3>
                   <h2>Любовь к себе</h2>
@@ -75,18 +75,27 @@
                </div>
             </div>
          </div>
-         <div class="container__about_me">
-            <div class="about_me__foto"></div>
-            <input type="checkbox" class="read-more-checker" id="read-more-checker" />
-<div class="limiter">
-<!-- Здесь сам контент который должен будет скрываться / раскрываться -->
- <div class="bottom"></div>
-</div>
-<label for="read-more-checker" class="read-more-button"></label>
+                  <div class="container__about_me">
+            <img class="circle1__about_me" src="./img/ellipse1.svg" alt="circle1">
+            <img class="circle2__about_me" src="./img/ellipse2.svg" alt="circle2">
+            <div class="photo__about_me"></div>
+            <div class="txt_about_me__wrp">
+               <h3 class="title__about_me">О проекте</h3>
+               <p class="p__about_me__pc1">Наш организм трудиться на нас 24/7, а мы его захламляем питанием, не поддерживаем нагрузками, не пьём воду, в целом никак не помогаем ему функционировать, и, в итоге, чаще всего не довольны собой, своим состоянием и фигурой.</p>
+               <p class="p__about_me__pc2">Я – фитнес-диетолог Анна Тютюнник, более 8 лет занимаюсь вопросом оздоровления организма, поддержания его в отличной форме и воспитании отношения к себе. Цель моего проекта - донести важность комплексного подхода к своему здоровью, рассказать работающий алгоритм действий.</p>
+               <p class="p__about_me__pc3">Результат всегда зависит от самого человека. Если он не готов работать, изучать, внедрять новое в свою жизнь, то курс для него не будет полезен.</p>
+               <p class="p__about_me">
+                  Наш организм трудиться на нас 24/7, а мы его захламляем питанием, не поддерживаем нагрузками, не пьём воду, в целом никак не помогаем ему функционировать <span id="dots_about_me">...</span><span id="more_about_me"> и, в итоге, чаще всего не довольны собой, своим состоянием и фигурой.<br><br>Я – фитнес-диетолог Анна Тютюнник, более 8 лет занимаюсь вопросом оздоровления организма, поддержания его в отличной форме и воспитании отношения к себе. Цель моего проекта - донести важность комплексного подхода к своему здоровью, рассказать работающий алгоритм действий.
+                      </span>
+                  </p>
+                  <button onclick="showMoreAboutMe()" id="btn_about_me">&#5167;</button>
+            </div>
          </div>
       </div>
-      <script async src="./js/jquery-3.6.0.min.js"></script>
-      <script src="./bootstrap/js/bootstrap.min.js"></script>    
+      
+      <script src="./js/jquery-3.6.0.min.js"></script>
       <script src="./js/main.js"></script>
+      <script src="./bootstrap/js/bootstrap.min.js"></script>    
+      
    </body>
 </html>

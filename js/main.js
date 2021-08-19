@@ -35,22 +35,25 @@ $(document).ready(function () {
 */
 
 
-/**
+/**функция сворачивания текста в разделе про меня
  *
  *
  */
-function readMore() {
-	var dots = document.getElementById("dots__about__project");
-	var more = document.getElementById("more__about__project");
-	var btn = document.getElementById("btn__about__project");
-
+ function showMoreAboutMe() {
+    let dots = document.getElementById("dots_about_me");
+    let moreText = document.getElementById("more_about_me");
+    let btnText = document.getElementById("btn_about_me");
+	
 	if (dots.style.display === "none") {
 		dots.style.display = "inline";
-		btn.innerHTML = "˅"; /*показать*/
-		more.style.display = "none";
-	} else {
-		dots.style.display = "none";
-		btn.innerHTML = "˄"; /*скрыть*/
-		more.style.display = "inline";
+		btnText.innerHTML = "&#5167;";
+		  moreText.style.display = "none";
 	}
-}
+
+	else {
+		dots.style.display = "none";
+		btnText.innerHTML = "&#5169;";
+		  moreText.style.display = "inline";
+	}
+	}
+
