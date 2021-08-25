@@ -58,7 +58,9 @@ $(document).ready(function () {
 	}
 
 
-	let dots = 4;
+
+
+let dots = 3;
 let sliderElem = document.querySelector('.slider');
 let dotElems = sliderElem.querySelectorAll('.slider__dot');
 let indicatorElem = sliderElem.querySelector('.slider__indicator');
@@ -73,4 +75,6 @@ Array.prototype.forEach.call(dotElems, dotElem => {
     sliderElem.setAttribute('data-pos', newPos);
   });
 });
+
+
 
