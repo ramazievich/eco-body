@@ -9,33 +9,7 @@ $(document).ready(function () {
 });
 
 
-/* сворачивание текста */
-/*
-  $(document).ready(function() {
-333
-	$('.reviews__text').each(function() {
-	  if ($(this).text().length > 192) {
-		$(this).data('full', $(this).text());
-		$(this).text($(this).text().slice(0, 192) + '...');
-		$(this).after("<span class='reviews__more'>ᐯ</span>");
-	  }
-	});
-  
-	$('.reviews__more').click(function() {
-	  if ($(this).text() == 'ᐯ') {
-		$(this).siblings('.reviews__text').text($(this).siblings('.reviews__text').data('full'));
-		$(this).text('ᐱ');
-	  } else {
-		$(this).siblings('.reviews__text').text($(this).siblings('.reviews__text').text().slice(0, 192) + '...');
-		$(this).text('ᐯ');
-	  }
-	});
-  
-  });
-*/
-
-
-/**функция сворачивания текста в разделе про меня
+/**функция сворачивания текста в разделе про меня маленькая
  *
  *
  */
@@ -57,9 +31,32 @@ $(document).ready(function () {
 	}
 	}
 
+/**функция сворачивания текста в разделе про меня большая
+ *
+ *
+ */
+ function showMoreAboutMe() {
+    let dots = document.getElementById("dots_about_me__full");
+    let moreText = document.getElementById("more_about_me__full");
+    let btnText = document.getElementById("btn_about_me__full");
+	
+	if (dots.style.display === "none") {
+		dots.style.display = "inline";
+		btnText.innerHTML = "&#5167;";
+		  moreText.style.display = "none";
+	}
 
+	else {
+		dots.style.display = "none";
+		btnText.innerHTML = "&#5169;";
+		  moreText.style.display = "inline";
+	}
+	}
 
-
+/**функция слайдер преимущества
+ *
+ *
+ */
 let dots = 3;
 let sliderElem = document.querySelector('.slider');
 let dotElems = sliderElem.querySelectorAll('.slider__dot');
