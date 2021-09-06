@@ -94,45 +94,44 @@
 	--main-color: #97E0B0;
 	--text-color: #00052E;
   }
+  
+.header__body.header__burger:focus-visible,
+.header__burger active {
+    outline: 10px solid #8fd5a7;
+}
+
+.header__logo:focus-visible,
+a.header__link:focus-visible,
+.phone_number:focus-visible,
+.phone_number__desktop:focus-visible,
+.go_course__header button:focus-visible,
+button:focus-visible,
+button#btn_about_me__full:focus-visible,
+.slider__dots:focus-visible,
+.slider__dot:focus-visible,
+.go_course__header button:focus-visible,
+.header__logo img:focus-visible {
+    outline: 3px solid #8fd5a7;
+}
 
 
-  .header__body.header__burger:focus-visible,
-  .header__burger active {
-	  outline: 10px solid #8fd5a7;
-  }
-  
-  .header__logo:focus-visible,
-  a.header__link:focus-visible,
-  .phone_number:focus-visible,
-  .phone_number__desktop:focus-visible,
-  .go_course__header button:focus-visible,
-  button:focus-visible,
-  button#btn_about_me__full:focus-visible,
-  .slider__dots:focus-visible,
-  .slider__dot:focus-visible,
-  .go_course__header button:focus-visible,
-  .header__logo img:focus-visible {
-	  outline: 3px solid #8fd5a7;
-  }
-  
-  
-  
-  
-  
-  html,
-  body {
-	  font-family: 'rubik-regular', 'Roboto', sans-serif;
-	  font-weight: 400;
-	  font-style: normal;
-	  font-size: 15px;
-	  margin: 0;
-	  padding: 0;
-	  -webkit-box-sizing: border-box;
-	  box-sizing: border-box;
-	  background: #F0F4F3;
-	  height: 100%;
-  }
-  
+
+
+
+html,
+body {
+	font-family: 'rubik-regular', 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #F0F4F3;
+	height: 100%;
+}
+
   .wrapper {
 	  max-width: 1600px;
 	  margin: auto;
@@ -940,6 +939,7 @@ img.cause_check {
 	  .txt_about_me__wrp__full {
 		  position: absolute;
 		  top: 100px;
+		  padding: 60px;
 	  }
 	  .about_me__full__img__wrp {
 		  display: block;
